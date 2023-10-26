@@ -1,0 +1,1 @@
+select rowNum from (select rowNumber over(order by id) rowNum) dt where rowNUm>2
